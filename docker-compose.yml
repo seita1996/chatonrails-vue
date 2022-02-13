@@ -15,6 +15,7 @@ services:
     restart: always
     build: .
     command: rails s -b 0.0.0.0 -p 3000
+    # command: bin/dev # tailwindのbuildプロセスを起動しておきたいが、このコマンドだと落ちる
     volumes:
       - .:/myapp
       - bundle:/usr/local/bundle
