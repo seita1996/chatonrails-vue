@@ -1,0 +1,8 @@
+ja:
+  activemodel:
+    models:
+      user: ユーザー
+    attributes:
+      user:
+        name: 名前
+        email: メールアドレス
